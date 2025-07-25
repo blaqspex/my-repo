@@ -1,0 +1,74 @@
+now html is a lang that is used to define layouts of webpages and we can define those layouts using things called tags
+
+<!DOCTYPE html>
+<html> -> starting tag
+  <head> -> sibling of the body tag
+    <meta charset="UTF-8"> -> meta tag used to define info of file
+    <meta name="description" content="This is an awesome website" -> with meta tags u can pass attribute/properties, like here we passed 2 in this meta tag, which define the info of our file
+    <title>Mike's Website</title>
+  </head>
+  <body> -> child of the html tag
+    <h2>Mike's Website</h2> -> defines the header/title of our file's body
+    <br/> -> injects a space in-b/w, like a breakbringer
+    <hr/> -> injects a horizontal line in-b/w. tags like hr & br are single tags
+                                              -> html doesn't care these two line space as...
+                                              -> ...it doesn't affect the structure
+    <p><big>This</big> <big>is</big> <small>my</small> <b><i>paragraph</i></b></p> -> defines a para, i & b makes the specific word bold n italic and big & small makes...as the name suggests ;)
+    <p>H<sub>2</sub>0</p> -> an subscript, pushes the chosen char/text downwards
+    <p>10<sup>2</sup></p> -> an superscript, pushes the chosen char/text upwards
+  </body>
+</html> -> ending tag
+starting n ending tags are like opening n closing brackets
+
+comments are for ur own read-through text guide like things. browser will bypass these when executing ur html file :)
+
+<html>
+  <head>
+    <title>Mike's Website</title>
+  </head>
+  <body>
+  <h2>Comments are <i>~~INVISIBLE~~</i>
+  <hr>
+
+<!-- Don't display this --> -> comments!!!
+  </body>
+</html>
+
+style n colours
+
+gonna  use style attributes/properties i.e. css :)
+
+<html>
+  <head>
+    <title>Mike's Website</title>
+  </head>
+  <body style="background-color: lightblue;"> -> will color up the bg of site with the given color :)
+
+
+  <h2>style="color: green;">Style and Colors</h2>
+  <p style="color: red; background-color: blue;">You can style you HTML and make it look pretty
+  </body>
+</html>
+
+<html>
+  <body>
+    <header>
+      <nav>
+        <!-- put ur links here :) -->
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <h1>
+        </section>
+        <section>
+        </section>
+      </article>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
+
